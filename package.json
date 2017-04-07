@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"ignore",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "ignore",
+    "description": "api documentation for [ignore (v3.2.7)](https://github.com/kaelzhang/node-ignore#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-ignore.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ignore) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ignore.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ignore)",
     "devDependencies": {
-        "ignore": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "ignore": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-ignore",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-ignore",
+    "keywords": [
+        "documentation",
+        "ignore"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_ignore.js",
+    "name": "npmdoc-ignore",
+    "nameAlias": "npmdoc_ignore",
+    "nameOriginal": "npmdoc-ignore",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-ignore"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
