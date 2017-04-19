@@ -1,9 +1,14 @@
-# api documentation for  [ignore (v3.2.7)](https://github.com/kaelzhang/node-ignore#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ignore.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ignore) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ignore.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ignore)
+# npmdoc-ignore
+
+#### api documentation for  [ignore (v3.2.7)](https://github.com/kaelzhang/node-ignore#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ignore.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ignore) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ignore.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ignore)
+
 #### Ignore is a manager and filter for .gitignore rules.
 
-[![NPM](https://nodei.co/npm/ignore.png?downloads=true)](https://www.npmjs.com/package/ignore)
+[![NPM](https://nodei.co/npm/ignore.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ignore)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-ignore/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-ignore_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ignore/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-ignore/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-ignore/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-ignore/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ignore/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-ignore/build/screenCapture.npmPackageListing.svg)
 
@@ -60,13 +65,11 @@
     "main": "./ignore.js",
     "maintainers": [
         {
-            "name": "kael",
-            "email": "i@kael.me"
+            "name": "kael"
         }
     ],
     "name": "ignore",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/kaelzhang/node-ignore.git"
@@ -79,16 +82,6 @@
     "version": "3.2.7"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module ignore](#apidoc.module.ignore)
-
-
-
-# <a name="apidoc.module.ignore"></a>[module ignore](#apidoc.module.ignore)
 
 
 
